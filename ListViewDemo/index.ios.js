@@ -45,7 +45,7 @@ var ListViewDemo = React.createClass({
             // 绘制cell
             renderRow={this.renderRow}
             // 设置Listview的样式
-            style={styles.listViewStyle}
+            contentContainerStyle={styles.listViewStyle}
         />
     )
   },
